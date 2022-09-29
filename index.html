@@ -4,7 +4,7 @@
     <title>Plant-Paradise-ICP3-Group-B</title>
     <style>
         .main1{
-            background-image: url(./images/home.jfif);
+            background-image: url(./images/home\ bg.jpeg);
             background-repeat: no-repeat;
             background-size: cover;
             padding-bottom: 20px;
@@ -61,6 +61,7 @@
         .wlc1{
            font-size: 50px;
            margin-left: 28%;
+           color: white;
         }
         .plants{
             margin-top: 35px;
@@ -71,11 +72,13 @@
         }
         .img1{
             border: 9px solid green;
-            border-radius: 5px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 8px gray;
         }
         .img1:hover{
             border: 10px solid green;
             cursor: pointer;
+            box-shadow: 3px 3px 8px white;
         }
         .text{
             margin-top: 150px;
@@ -84,40 +87,57 @@
             font-size: 40px;
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             font:bold;
+            color: white;
         }
         .green{
             font-size: 25px;
             font-family: monospace;
+            color: whitesmoke;
         }
         .third{
             margin-top: 50px;
+            
         }
         .st{
             font-size:40px;
              margin-left:30%;
+             color: white;
         }
         .steps{
             display: flex;
             justify-content: space-around;
-            margin-top: 30px;
+            margin-top: 50px;
         }
         .planting:hover{
-            height: 250px;
+            height: 270px;
             width: 300px;
             padding: 20px;
             background-color: #99e699;
             border-radius: 20px;
             cursor: pointer;
             transition: 0.5s;
+            
         }
         .pl{
             height:120px;
             width:120px;
             margin-left: 20px;
+            border-radius: 10px;
         }
         .in{
             margin-left:18px; 
-            font-size:20px
+            font-size:20px;
+            color: white;
+        }
+        .in:hover{
+            color: black;
+        }
+        .in1{
+            color: white;
+            font-size:17px ;
+        }
+        .in1:hover{
+            color: black;
         }
         .four{
             margin-top: 80px;
@@ -135,14 +155,16 @@
         }
         .ca{
             font-size: 40px;
-            color: black;
             text-decoration: none;
+        }
+        .ca:hover{
+            color: black;
         }
         .m1{
             margin-left:30%
         }
         .five{
-            background-color: aliceblue;
+            background-image: radial-gradient(lightblue,lightgreen,lightyellow);
             padding-top: 20px;
             padding-bottom: 70px;
             border-radius: 20px;
@@ -180,8 +202,8 @@
             padding: 30px;
         }
         .us{
-            margin-left: 30%;
-            font-size: 15px;
+            margin-left: 28%;
+            font-size: 20px;
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             color: black;
         }
@@ -202,6 +224,15 @@
         .bg{
             margin-top: 20px;
             cursor: pointer;
+        }
+        .pd{
+            border-radius: 50%;
+        }
+        .shraddha{
+            margin-left: 20%;
+        }
+        .ca{
+            color:white;
         }
     </style>
 </head>
@@ -232,10 +263,10 @@
          <img src="./images/plants.jpg" height="350px" width="400px" class="img1">
       </div>
       <div class="text">
-          <span class="keep">Grow Your Own<br>Favourite Plant...</span>
-          <p class="green">We help you to grow your first plant make your <br>own beautiful garden
-            with our plant collection.
-          </p>
+          <span class="keep"><b>Grow Your Own<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Favourite Plant...</b></span><br><br>
+          <p class="green"><b>We help you to grow your first plant make your <br>own beautiful garden
+            with our plant collection.</b>
+          </p><br><br><br>
       </div>
     </div>
     <div class="third">
@@ -244,14 +275,14 @@
            <div class="planting">
               <img src="./images/inoculate.jfif" class="pl"><br><br>
               <b class="in">Inoculate</b><br>
-              <p>The use of soil inoculants has promise <br>for use in agricultural systems for improving<br> nutrient status, reducing plant diseases
+              <p class="in1">The use of soil inoculants has promise <br>for use in agricultural systems for improving<br> nutrient status, reducing plant diseases
                 <br> and pests, and improving yields.</p>
            </div>
 
            <div class="planting">
             <img src="./images/sow.jfif" height="120px" class="pl"><br><br>
             <b class="in">Sow the Seeds</b><br>
-            <p>Sowing is the process of planting seeds<br>into the soil. During this proper precaution<br>should be taken,
+            <p class="in1">Sowing is the process of planting seeds<br>into the soil. During this proper precaution<br>should be taken,
                 soil should be clean,healthy<br>and free from disease.
             </p>
          </div>
@@ -259,19 +290,19 @@
          <div class="planting">
             <img src="./images/punt pots.jfif" class="pl"><br><br>
             <b class="in">Punt the Pots</b><br>
-            <p>Disinfecting pots is a simple step to<br>prepare for a successful spring garden<br>ahead of planting.</p>
+            <p class="in1">Disinfecting pots is a simple step to<br>prepare for a successful spring garden<br>ahead of planting.</p>
          </div>
         </div>
     </div>
     <div class="four">
        <div class="care">
           <img src="./images/plant care.jpg" class="p1"><br><br>
-          <a href="care.html" class="ca">How to Care Plants?</a>
+          <a href="care.html" class="ca"><b>How to Care Plants?</b></a>
        </div>
 
        <div class="care">
         <img src="./images/categories.jfif" class="p1"><br><br>
-        <a href="plants.html" class="ca">Categories of Plants</a>
+        <a href="plants.html" class="ca"><b>Categories of Plants</b></a>
      </div>
     </div>
     </div>
@@ -286,21 +317,21 @@
             </div>
 
             <div class="info">
-                <img src="./images/female user.png" height="100px" width="100px" class="m1"><br><br>
+                <img src="./images/pranali.jpg" height="100px" width="100px" class="m1 pd"><br><br>
                 <b class="us">Pranali Dalvi</b><br>
                 <p class="para">She completed her diploma in Computer technogy from Mumbai University.</p>
             </div>
 
             <div class="info">
                 <img src="./images/female user.png" height="100px" width="100px" class="m1"><br><br>
-                <b class="us">Shraddha Sadavarte</b>
+                <b class="us shraddha">Shraddha Sadavarte</b>
                 <p class="para">She completed her diploma in Computer technogy from Mumbai University.</p>
             </div>
         </div><br><br>
         <div class="about">
             <div class="info">
                 <img src="./images/female user.png" height="100px" width="100px" class="m1"><br><br>
-                <b class="us">Harde Shraddha</b>
+                <b class="us shraddha">Harde Shraddha</b>
                 <p class="para">She is currently pursuing her batchelor degree in Computer Science from Mumbai University.</p>
             </div>
 
