@@ -4,10 +4,13 @@
         <title>Neem plant</title>
         <link rel="shortcut icon" href="./images/logo.png"/>
         <style>
+            body{
+                background-image: url(./images/payment\ bg.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
             .maindiv{
-    background-color:khaki;
-    border-radius:20px;
-
+              border-radius:20px;
             }
         .row{
             display:flex;
@@ -22,9 +25,8 @@
             border-radius: 20px;
         }
         .p{
-            color:brown;
+            color:black;
             font-size:30px;
-            background-color:lightpink;
             border-radius:20px;
             padding-top:30px;
             padding-bottom:30px;
@@ -45,13 +47,47 @@
             display:flex;
             justify-content: space-around;
         }
+        .bacon{
+            height:200px;
+            width:310px;
+            border-radius:20px;
+            border:2px solid yellow;
+        }
+        .card1{
+            border:2px solid gray;
+            height:330px;
+            width:310px;
+            padding:27px;
+            border-radius:20px;
+            margin-top:30px;
+            background-color:  rgb(114, 242, 114);
+        }
+        .card1:hover{
+            background-color:  rgb(6, 141, 6);
+            cursor: pointer;
+            transition: 0.5s;
+            box-shadow: 0 0 8px gray;
+        }
+        .p1{
+            margin-left:80px;
+            font-size:40px;
+            border:20x dotted red;
+            color:brown;
+        }
+        .b1{
+            color:blue;
+            text-decoration: none;
+        }
+        .b1:hover{
+            color:white;
+        }
         </style>
     </head>
     <body><div class="maindiv">
         <div style="color:crimson;font-size:40px;font-family:sans-serif;text-align:center;padding:20px;">
-            ..Neem Plant..
+            Neem Plant
         </div>
-      <div class="row">  <div class="img"><img src="neem.jpeg" style="margin-bottom:40px;border-radius:20px;height:500px;width:600px;border:2px solid orangered;"/></div>
+      <div class="row">  <div class="img"><img src="./images/neem.jpeg" style="margin-bottom:40px;border-radius:20px;height:400px;width:400px;border:2px solid orangered;"/></div>
     <span>
 <div ><p class="p"><i><u>
   <b>Avaliable offers:-</b><br>
@@ -66,20 +102,20 @@ Bank Offer10% off on ICICI Bank Credit Cards, <br> up to 1,500. On orders of 5,0
 
 </u>
 </p>
-<button class="btn">Buy Now</button></div></span></div></div>
+<button class="btn"><a href="payment.html" class="b1">Buy Now</a></button></div></span></div></div>
 <div class="card">
-    <div style="border:2px solid crimson;height:330px;width:320px;padding:27px;border-radius:20px;margin-top:30px;">
-        <img src="malBAR-NEEM.JPEG" style="height:200px;width:300px;border-radius:20px;margin-top:30px;border:2px solid yellow;"/>
-        <p style="margin-left:40px;font-size:40px;border:20x dotted red;color:brown;">Malbar</p>
+    <div class="card1">
+        <img src="./images/malBAR-NEEM.JPEG" class="bacon">
+        <p class="p1">Malbar</p>
     </div>
-    <div style="border:2px solid crimson;height:330px;width:320px;padding:27px;border-radius:20px;margin-top:30px;">
-        <img src="AZADIRACHTA-neem.jpeg" style="height:200px;width:300px;border-radius:20px;margin-top:30px;border:2px solid yellow;"/>
-        <p style="margin-left:40px;font-size:40px;border:20x dotted red;color:brown;">Azadirachta</p>
+    <div class="card1">
+        <img src="./images/AZADIRACHTA-neem.jpeg" class="bacon">
+        <p class="p1">Azadirachta</p>
     </div>
 
-    <div style="border:2px solid crimson;height:330px;width:320px;padding:27px;border-radius:20px;margin-top:30px;">
-        <img src="green-royal-neem.jpeg" style="height:200px;width:300px;border-radius:20px;margin-top:30px;border:2px solid yellow;"/>
-        <p style="margin-left:40px;font-size:40px;border:20x dotted red;color:brown;">Green-Royal</p>
+    <div class="card1">
+        <img src="./images/green-royal-neem.jpeg" class="bacon">
+        <p class="p1">Green-Royal</p>
     </div>
 
 </div>
