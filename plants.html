@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <title>Categories of Plants</title>
+    <link rel="shortcut icon" href="./images/logo.png"/>
     <style>
         body{
             background-image: radial-gradient(lightpink, lightgreen,lightpink);
@@ -60,6 +61,23 @@
             margin-left:43%;
              font-size: 30px;
         }
+        @media screen and (min-width:600px) and (max-width:768px) {
+            .two{
+            display: flex;
+           flex-wrap: wrap;
+        } 
+        .inorganic{
+            margin-top: 30px;
+            height: 450px;
+            width: 300px;
+        } 
+        .img{
+            width: 300px;
+        }
+        .btn1{
+            margin-top: 30px;
+        }
+        }
     </style>
 </head>
 <body>
@@ -104,6 +122,6 @@
             <button class="btn"><a href="fruits.html" style="text-decoration:none; color: white;">See More</a></button>
         </div>
      </div>
-     <button style="width: 200px; padding: 2px; border-radius: 20px; background-color: lawngreen; border: 3px solid blue; margin-left: 43%;"><a href="index.html" style=" font-size:25px;color: blue; text-decoration:none;" >Back to Home</a></button>
+     <button style="width: 200px; padding: 2px; border-radius: 20px; background-color: lawngreen; border: 3px solid blue; margin-left: 43%;" class="btn1"><a href="index.html" style=" font-size:25px;color: blue; text-decoration:none;" >Back to Home</a></button>
 </body>
 </html>
